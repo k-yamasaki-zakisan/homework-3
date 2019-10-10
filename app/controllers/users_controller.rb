@@ -28,7 +28,7 @@ class UsersController < ApplicationController
   	   redirect_to user_path(@user.id)
     else
       flash[:error1] = "errorです、５０文字以内にしてください"
-      redirect_to user_path(@user.id)   
+      redirect_to user_path(@user.id)
     end
   end
 
